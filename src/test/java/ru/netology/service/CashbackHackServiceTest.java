@@ -6,7 +6,7 @@ import static org.junit.Assert.*;
 
 public class CashbackHackServiceTest {
 
-    @org.junit.Test
+    @Test
 
     public void shouldReturn700IfAmount1300() {
         CashbackHackService service = new CashbackHackService();
@@ -18,7 +18,7 @@ public class CashbackHackServiceTest {
         assertEquals(expected,actual);
     }
 
-    @org.junit.Test
+    @Test
 
     public void shouldReturn0IfAmount1000() {
         CashbackHackService service = new CashbackHackService();
@@ -30,7 +30,7 @@ public class CashbackHackServiceTest {
         assertEquals(expected,actual);
     }
 
-    @org.junit.Test
+    @Test
 
     public void shouldReturn200IfAmount800() {
         CashbackHackService service = new CashbackHackService();
